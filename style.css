@@ -500,8 +500,7 @@ body {
     top: 80px;
     transform: translateX(-50%);
     width: 80vw;  /* Increase width on very small screens */
-    height: auto;
-      overflow-y: auto;
+    max-height: 100vh;
   }
 
   .main-content {
@@ -540,7 +539,6 @@ body {
       transform: translateX(-50%); /* Center it horizontally */
       width: 80vw; /* Make it more narrow on small screens */
       height: auto; /* Adjust height based on content */
-      overflow-y: auto;
       z-index: 0;
   }
 
@@ -567,7 +565,6 @@ body {
       transform: translateX(-50%);
       width: 80vw; /* Make it even narrower */
       height: auto; /* Adjust height based on content */
-      overflow-y: auto;
       z-index: 0;
   }
 
