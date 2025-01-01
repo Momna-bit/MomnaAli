@@ -500,6 +500,7 @@ body {
     top: 80px;
     transform: translateX(-50%);
     width: 80vw;  /* Increase width on very small screens */
+    height: auto;
     max-height: 300vh;
   }
 
@@ -538,6 +539,7 @@ body {
       left: 50%;
       transform: translateX(-50%); /* Center it horizontally */
       width: 80vw; /* Make it more narrow on small screens */
+      height: auto;
       max-height: 300vh; /* Adjust height based on content */
       z-index: 0;
   }
@@ -564,6 +566,7 @@ body {
       left: 50%;
       transform: translateX(-50%);
       width: 80vw; /* Make it even narrower */
+      height: auto;
       max-height: 300vh; /* Adjust height based on content */
       z-index: 0;
   }
