@@ -496,7 +496,7 @@ body {
   }
 
   .static-card {
-    top: 40%;
+    top: 100%;
     width: 60vw;  /* Increase width on very small screens */
   }
 
@@ -505,7 +505,7 @@ body {
       padding: 1rem;
   }
 
-  .about h1 {
+  .main h1 {
       font-size: 1.75rem;  /* Adjust font size */
   }
 
@@ -551,7 +551,7 @@ body {
 @media (max-width: 480px) {
   .static-card {
       position: absolute;
-      top: auto;
+      top: 10%;
       bottom: 5%; /* Move it slightly up from bottom */
       left: 50%;
       transform: translateX(-50%);
