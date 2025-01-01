@@ -500,7 +500,7 @@ body {
     top: 80px;
     transform: translateX(-50%);
     width: 80vw;  /* Increase width on very small screens */
-    max-height: 100vh;
+    max-height: 300vh;
   }
 
   .main-content {
