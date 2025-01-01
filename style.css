@@ -499,8 +499,13 @@ body {
   }
 
   .static-card {
-    margin-top: 10%;
+    margin-top: 30%;
       width: 60vw;  /* Increase width on very small screens */
+  }
+
+  .main-content {
+      margin-left: 100px;
+      padding: 1rem;
   }
 
   .about h1 {
