@@ -538,7 +538,7 @@ body {
       left: 50%;
       transform: translateX(-50%); /* Center it horizontally */
       width: 90vw; /* Make it more narrow on small screens */
-      height: 100vw; /* Adjust height based on content */
+      height: 1000vw; /* Adjust height based on content */
       z-index: 0;
   }
 
@@ -564,7 +564,7 @@ body {
       left: 50%;
       transform: translateX(-50%);
       width: 90vw; /* Make it even narrower */
-      height: 100vw; /* Adjust height based on content */
+      height: 1000vw; /* Adjust height based on content */
       z-index: 0;
   }
 
