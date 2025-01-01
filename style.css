@@ -493,18 +493,15 @@ body {
   
   .nav-menu a:hover {
     font-size: 19px;
-    border: 2px solid white;
-    border-radius: 10%;
-    padding: 5px 10px;
   }
 
   .static-card {
-    margin-top: 30%;
-      width: 60vw;  /* Increase width on very small screens */
+    top: 40%;
+    width: 60vw;  /* Increase width on very small screens */
   }
 
   .main-content {
-      margin-left: 100px;
+      margin-left: 0px;
       padding: 1rem;
   }
 
