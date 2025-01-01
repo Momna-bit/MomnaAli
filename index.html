@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Momna's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <ul class="nav-menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </header>
+
+  <div class="spotlight top-right"></div>
+  <div class="spotlight bottom-left"></div>
+
+  <div class="content">
+    <!-- Static Card -->
+    <div class="static-card">
+        <h1>Momna Ali</h1>
+        <img src="icons/p.png" alt="Momna Ali" class="avatar">
+        <p>Specialization:</p>
+        <p class="info">Data Analyst and Software Developer</p>
+        <p>Based in:</p>
+        <p class="location">Toronto, Ontario</p>
+        <div class="social">
+            <div class="social-links">
+                <a href="https://linkedin.com/in/momna-ali-511007246"><img src="icons/in.png" alt="LinkedIn"></a>
+                <a href="http://github.com/Momna-bit"><img src="icons/gi.png" alt="GitHub"></a>
+            </div>
+        </div>
+        <a href="mailto:alimomna87@gmail.com" class="btn gradient-btn">Let's Work Together</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content" id="home">
+      <div class="main" id="main">
+        <h1>I'm Momna Ali,</h1>
+        <h2>Turning data into possibilities And innovation into reality.</h2>
+        <!-- <h2>About Me</h2> -->
+        <p>As a Master's student in Data Science and Analytics at Toronto Metropolitan University, I transform raw data into impactful, actionable insights. With expertise in machine learning, data visualization, and big data management, I thrive on solving complex challenges with innovative solutions. My passion lies in leveraging data to drive meaningful change, and I’m excited to connect with organizations that value the power of data-driven decision-making. Dive into my portfolio to discover how I turn data into discoveries—and let’s explore how we can create something extraordinary together.</p>
+        <div class="buttons">
+          <button class="btn" onclick="downloadResume()">Download CV</button>
+        </div>
+      </div>
+
+      <button id="scrollToTopBtn"><img src="icons/up.png"></button>
+
+      <section class="projects" id="projects">
+        <h2>My Projects</h2>
+        <div class="project-container">
+
+        <!-- Project Card 1 -->
+        <div class="project-card">
+          <img src="icons/ai_guardian.png" alt="Project 1">
+          <p>Empower individuals with physical disabilities to access help seamlessly and independently through 
+            cutting-edge AI assistance. Imagine a world where advanced technology bridges the gap, enabling instant 
+            communication in emergencies with the help of gesture tracking. This revolutionary 
+            approach transforms the way we perceive accessibility, offering peace of mind and confidence to those who need 
+            it most. Discover how innovation is shaping a future where help is always within reach—because every second counts, 
+            and everyone deserves the freedom to feel safe.</p>
+          <a href="https://github.com/K2hmed/Ai-Guardian" class="btn">View Project</a>
+        </div>
+        <div class="project-card">
+          <img src="icons/apple.jpg" alt="Project 2">
+          <p>Uncover the factors driving Apple Inc.'s stock performance through powerful, data-driven insights. 
+            Dive into the trends, patterns, and market dynamics that have propelled AAPL to the forefront of the tech 
+            industry. From analyzing historical data to predicting future movements, gain a deeper understanding of how innovation, 
+            consumer behavior, and global events shape its market trajectory. Explore the story behind the numbers and discover what 
+            sets AAPL apart as a leader in the financial and technological world. Let the data reveal the secrets to Apple's enduring 
+            market success!</p>
+          <a href="https://github.com/K2hmed/AAPL-Stock-Data" class="btn">View Project</a>
+        </div>
+
+        </div>
+      </section>
+
+      <section id="about">
+        <h2>About Me</h2>
+        <p>I’m passionate about unlocking the stories hidden within data to redefine how we see the world. As a Master’s 
+          student in Data Science and Analytics at Toronto Metropolitan University, I turn complex datasets into meaningful 
+          insights that drive real-world change. My expertise lies in blending machine learning, data visualization, and big 
+          data strategies to solve challenges in creative, impactful ways. If you’re looking for someone who transforms raw numbers 
+          into innovative solutions, dive into my portfolio and let’s bring data-driven ideas to life together!</p>
+          <div class="education"> 
+            <h3>Education</h3>
+            <ul>
+                <li>
+                    <h4>MSc. Data Science & Analystics</h4>
+                    <p>Toronto Metropolitan University</p>
+                    <p>2025</p>
+                </li>
+                </ul>
+        </div>
+        <div class="skills">
+            <h3>Technical Skills</h3>
+              <div class="technical-skills-images"> 
+                <img src="icons/ha.jpg" alt="Skill 1 Image">
+                <img src="icons/hi.jpg" alt="Skill 2 Image">
+                <img src="icons/sp.jpg" alt="Skill 3 Image">
+            </div>
+            
+            <div class="technical-skills-images"> 
+              <img src="icons/po.jpg" alt="Skill 4 Image">
+              <img src="icons/py.jpg" alt="Skill 5 Image">
+              <img src="icons/fi.jpg" alt="Skill 6 Image">
+          </div>
+
+            <h3>Transferable Skills</h3>
+            <ul>
+              <li>Problem-Solving: I excel at unraveling complex challenges with innovative, data-driven solutions. 
+                For instance, I developed a predictive model that identified significant trends in Apple Inc.’s stock performance.</li>
+              <li>Effective Communication: I bridge the gap between technical insights and diverse audiences, delivering clear, 
+                impactful presentations. Whether addressing technical experts or non-technical stakeholders, I ensure my findings are 
+                accessible and actionable.</li>
+              <li>Team Collaboration: I thrive in collaborative environments, contributing to successful outcomes like an 85% accuracy 
+                in predicting customer churn for a recent project. My ability to engage in meaningful discussions and align with team 
+                goals drives impactful results.</li>
+            </ul>
+        </div>
+        <div class="experience">
+            <h3>Certifications</h3>
+            <ul>
+                <li>
+                    <h4>Google Data Analysis Professional Certificate</h4>
+                </li>
+                <li>
+                  <h4>Amazon Virtual Assistance (VA)</h4>
+                </li>
+                <li>
+                  <h4>Introduction to Cloud (IBM)</h4>
+                </li>
+                <li>
+                  <h4>Machine Learning for Beginners (Analytics Vidhya)</h4>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>Feel free to reach out if you have any questions or opportunities!</p>
+    
+      <form action="https://formspree.io/f/xqaayybz" method="post"> 
+        <div>
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+          <label for="email">Your Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="message">Your Message:</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+
+
+    </div>
+  </div>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
