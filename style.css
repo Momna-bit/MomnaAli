@@ -501,7 +501,7 @@ body {
     transform: translateX(-50%);
       width: 90vw; /* Make it even narrower */
       height: fit-content;
-      max-height:90vh;
+      max-height:120vh;
   }
 
   .main-content {
@@ -540,7 +540,7 @@ body {
       transform: translateX(-50%); /* Center it horizontally */
       width: 90vw; /* Make it even narrower */
       height: fit-content;
-      max-height:90vh;
+      max-height:120vh;
       z-index: 0;
   }
 
@@ -567,7 +567,7 @@ body {
       transform: translateX(-50%);
       width: 90vw; /* Make it even narrower */
       height: fit-content;
-      max-height:90vh;
+      max-height:120vh;
       z-index: 0;
   }
 
