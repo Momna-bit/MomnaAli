@@ -496,12 +496,15 @@ body {
   }
 
   .static-card {
-    top: 100%;
-    width: 60vw;  /* Increase width on very small screens */
+    position: absolute;
+    top: 80px;
+    transform: translate(0,0);
+    width: 90vw;  /* Increase width on very small screens */
+    height: auto;
   }
 
   .main-content {
-      margin-left: 0px;
+      margin-top: 85vh;
       padding: 1rem;
   }
 
@@ -524,8 +527,8 @@ body {
 @media (max-width: 768px) {
   .static-card {
       position: absolute; /* Change to absolute positioning */
-      top: auto;  /* Remove fixed position */
-      margin-bottom: -30px;
+      top: 80px;  /* Remove fixed position */
+      margin-bottom: 20px;
       bottom: 10%; /* Position it near the bottom */
       left: 50%;
       transform: translateX(-50%); /* Center it horizontally */
@@ -551,7 +554,7 @@ body {
 @media (max-width: 480px) {
   .static-card {
       position: absolute;
-      top: 10%;
+      top: 80px;
       bottom: 5%; /* Move it slightly up from bottom */
       left: 50%;
       transform: translateX(-50%);
