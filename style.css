@@ -564,7 +564,7 @@ body {
       left: 50%;
       transform: translateX(-50%);
       width: 80vw; /* Make it even narrower */
-      height: auto; /* Adjust height based on content */
+      height: 300vh; /* Adjust height based on content */
       z-index: 0;
   }
 
